@@ -1,0 +1,73 @@
+body {
+  margin: 0;
+  font-family: arial, sans-serif;
+}
+a {
+  text-decoration: none;
+}
+.navbar {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  margin-left: 500px;
+}
+.navbar ul{
+  float:right;
+}
+.navbar li {
+  display: inline;
+}
+.container {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+.box {
+  margin: 50px;
+  height: 600px;
+  width: 700px;
+  background-color: white;
+  box-shadow: 5px 5px 20px #888888;
+}
+h2 {
+  margin: 20px;
+}
+.sidebar {
+  float: right;
+  width: 200px;
+  background-color: #dddddd;
+  margin-top: 90px;
+}
+.signup {
+  margin: 40px;
+  width: 300px;
+}
+form {
+  display: block;
+  width: 200px;
+}
+label {
+  margin: 10px;
+}
+input {
+  width: 250px;
+  margin: 10px;
+  height: 20px;
+  border-radius: 3px;
+}
+select {
+  margin: 10px;
+}
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  bottom: 0;
+}
+.footer li{
+  display: inline-block;
+}
+ul {
+
+}
