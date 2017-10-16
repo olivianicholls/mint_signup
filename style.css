@@ -1,9 +1,22 @@
 body {
-  margin: 0;
-  font-family: arial, sans-serif;
+  margin: 30px 0 150px 0;
+  font-family: Helvetica, arial, sans-serif;
 }
 a {
   text-decoration: none;
+  color: #888888;
+}
+.header {
+
+}
+.logo {
+display: inline-block;
+
+
+}
+img {
+  height: 100px;
+  margin: 0 0 -70px 90px;
 }
 .navbar {
   align-items: center;
@@ -23,20 +36,38 @@ a {
   display: flex;
 }
 .box {
-  margin: 50px;
-  height: 600px;
-  width: 700px;
+  height: 900px;
+  width: 800px;
   background-color: white;
   box-shadow: 5px 5px 20px #888888;
 }
 h2 {
-  margin: 20px;
+  margin: 50px 0 20px 50px;
+  font-weight: 200;
+  font-size: 30px;
+  width: 450px;
+}
+aside {
+  border-left: 1px solid #dddddd;
+  padding-left: 20px;
+  float: right;
+  width: 230px;
+  margin-top: 40px;
+  height: 500px;
 }
 .sidebar {
-  float: right;
-  width: 200px;
   background-color: #dddddd;
-  margin-top: 90px;
+  margin: -20px 20px 40px 0;
+  height: 500px;
+  color: #888888;
+  width: 200px;
+}
+.sidebar h3 {
+  font-size: 20px;
+  padding: 30px 10px 5px 20px;
+}
+.sidebar li {
+  font-size: 12px;
 }
 .signup {
   margin: 40px;
@@ -48,25 +79,40 @@ form {
 }
 label {
   margin: 10px;
+  font-size: 13px;
+}
+#subphone {
+  font-size: 10px;
+  padding: 0;
+  margin: -15px 0 30px 10px ;
+  width: 300px;
 }
 input {
-  width: 250px;
-  margin: 10px;
-  height: 20px;
+  width: 350px;
+  margin: 20px 10px;
+  height: 28px;
   border-radius: 3px;
+  border: 1px solid #dddddd;
+  outline: none;
 }
-select {
+.chkbox {
+  width: 13px;
+  height: 13px;
   margin: 10px;
+}
+#agreement {
+  font-size: 12px;
+  width: 400px
 }
 .footer {
   display: flex;
   align-items: center;
   justify-content: center;
-  position: absolute;
-  bottom: 0;
 }
 .footer li{
   display: inline-block;
+  border-right: 1px solid black;
+  padding: 0 20px 0 20px;
 }
 ul {
 
