@@ -3,30 +3,33 @@
 <head>
   <title>Mint</title>
   <link href='style.css' type='text/css' rel='stylesheet'>
+  <link href='http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css' rel='stylesheet'>
+  <link href="https://fonts.googleapis.com/css?family=Nunito:200,300,400,600" rel="stylesheet">
 </head>
 <body>
-  <div class='header'>
-  <div class='logo'>
-    <img src='https://www.mint.com/sites/default/files/styles/mint_third_width/public/mintlogo_link_presspg.png?itok=Vaz4ENu4&timestamp=1418704612'>
+  <!--Header-->
+    <div class='logo'>
+      <img src='https://www.mint.com/sites/default/files/styles/mint_third_width/public/mintlogo_link_presspg.png?itok=Vaz4ENu4&timestamp=1418704612'>
+    </div>
+    <div class='navbar'>
+      <ul>
+        <li><a href='#'>Sign up</a></li>
+        <li><a href='#'>Log in</a></li>
+      </ul>
+    </div>
   </div>
-  <div class='navbar'>
-    <ul>
-      <li><a href='#'>Sign up</a></li>
-      <li><a href='#'>Log in</a></li>
-    </ul>
-  </div>
-</div>
-    <div class='container'>
+  <!--Main box-->
+  <div class='container'>
     <div class='box'>
-        <aside>
-          <div class='sidebar'>
-        <h3>Why you'll love it</h3>
-        <ul>
-          <li>See all your accounts in one place</li>
-          <li>Set a budget and pay down your debt</li>
-          <li>Find the best ways to grow your money</li>
-          <li>Stay <a href='#'>safe and secure</a></li>
-        </ul>
+      <aside>
+        <div class='sidebar'>
+          <h3>Why you'll love it</h3>
+          <ul>
+            <li>See all your accounts in one place</li>
+            <li>Set a budget and pay down your debt</li>
+            <li>Find the best ways to grow your money</li>
+            <li class='safe'>Stay <a href='#'>safe and secure</a></li>
+          </ul>
         </div>
       </aside>
       <h2>See all your finances in one place & create a budget</h2>
@@ -46,22 +49,31 @@
           <input type="password" name='password'>
           <label for='confirm_password'>Confirm Password</label>
           <input type='password' name='password'>
+          <!--Remember checkbox -->
           <input class='chkbox' type='checkbox' name='remember'><label for='remember'>Remember me</label>
-            <div class='button'>
-            <button>SIGN UP</button>
-            <p id='agreement'>By clicking Sign Up you agree to our <a href='#' class='ToU'>Terms of Use</a> and <a href='#' class='Tou'>Privacy Statement</a></p>
+          <div class='button'>
+            <button><i class='ion ion-locked'></i>SIGN UP</button>
           </div>
+          <p id='agreement'>By clicking Sign Up you agree to our <a href='#' class='ToU'>Terms of Use</a> and <a href='#' class='ToU'>Privacy Statement</a></p>
+        </div>
       </div>
-  </div>
-</div>
-<div class='footer'>
-  <ul>
-    <li><a href='#'>Support</a></li>
-    <li><a href='#'>Terms of Use</a></li>
-      <li><a href='#'>Privacy</a></li>
+    </div>
+    <!--Foot Navigation-->
+    <div class='footer'>
+      <ul>
+        <li><a href='#'>Support</a></li>
+        <li><a href='#'>Terms of Use</a></li>
+        <li><a href='#'>Privacy</a></li>
         <li><a href='#'>Legal and Trademark Notices</a></li>
-          <li><a href='#'>About Intuit</a></li>
-        </ul>
-</div>
-</body>
-</html>
+        <li><a href='#'>About Intuit</a></li>
+      </ul>
+    </div>
+    <div class='security'>
+      <img id='norton' src='https://www.servertastic.com/wp-content/uploads/norton-secured-seal.png'>
+      <img id='truste' src='https://securityledger.com/wp-content/uploads/2014/11/TRUSTeSeal.png'>
+    </div>
+    <div class='copyright'>
+      <p>&copy 2017 Intuit, Inc | ph7564.20 - spa99.6</p>
+    </div>
+  </body>
+  </html>
